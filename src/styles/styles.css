@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'dm-serif-display';
+    src: url('/fonts/dmserifdisplay-regular-webfont.woff2') format('woff2'),
+        url('/fonts/dmserifdisplay-regular-webfont.woff') format('woff');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: 'poppins';
+    src: url('/fonts/poppins-regular-webfont.woff2') format('woff2'),
+        url('/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'poppins';
+    src: url('/fonts/poppins-semibold-webfont.woff2') format('woff2'),
+        url('/fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'poppins';
+    src: url('/fonts/poppins-bold-webfont.woff2') format('woff2'),
+        url('/fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: 700;
+  }
+}

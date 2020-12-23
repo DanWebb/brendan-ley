@@ -1,0 +1,25 @@
+{
+  "name": "brendan-ley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "fkill -s :3000 && npm run build && npm run serve",
+    "serve": "serve ./src -l 3000",
+    "build": "postcss src/styles/styles.css -o src/styles-min.css"
+  },
+  "keywords": [],
+  "author": "Dan Webb <mail@danwebb.co> (https://danwebb.co)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "10.1.0",
+    "postcss": "8.2.1",
+    "tailwindcss": "2.0.2"
+  },
+  "devDependencies": {
+    "fkill-cli": "6.0.1",
+    "postcss-cli": "8.3.1",
+    "serve": "11.3.2",
+    "watch": "1.0.2"
+  }
+}
